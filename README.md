@@ -31,3 +31,5 @@ Please support that project [here](https://github.com/advnpzn/akipy/)!
 ### Bugs and Fixes
 
 - Implment history tracking for `User` model
+- Generalize API chat submissions in `gpt_answer.py` to be cleaner and less repetitive
+- Organize prompts globally as opposed to instances of each model class
