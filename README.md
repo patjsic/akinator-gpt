@@ -19,6 +19,7 @@ To run, simply run `aki.py`. This will save conversations with Akinator in `logs
 ### Future Plans
 
 - Add environment variable support for API keys
+- Allow for further model answer processing in `get_answer()` to mitigate looping with invalid model responses
 - Planning to add support for additional models: `Llama3`, `Mistral`
 - Automatic analysis for generated runs
 
@@ -30,6 +31,6 @@ Please support that project [here](https://github.com/advnpzn/akipy/)!
 
 ### Bugs and Fixes
 
-- Implment history tracking for `User` model
+- Implement history tracking for `User` model
 - Generalize API chat submissions in `gpt_answer.py` to be cleaner and less repetitive
 - Organize prompts globally as opposed to instances of each model class
